@@ -2,6 +2,8 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import TextField from "@material-ui/core/TextField";
 
+//This confirmation check the orderDate, quantity, scheduleDate and then confirm the order.
+
 const Confirmation = (props) => {
     const { orderData, quantity, scheduledate } = props;
 
