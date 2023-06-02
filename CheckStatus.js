@@ -36,7 +36,7 @@ const CheckStatus = ({ setOpenCheckStatus, openCheckStatus }) => {
     const [invoiceId, setInvoiceId] = useState("");
     const [orderList, setOrderList] = useState([]);
     const classes = useStyles();
-
+//this funtion contains an if condition which checks a condition to sent an error message
     const handleCheckStatus = () => {
         if (invoiceId === "" || invoiceId.trim() === "") {
             setErrMessage("Invoice ID is required");
