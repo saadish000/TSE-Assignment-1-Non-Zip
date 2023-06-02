@@ -1,3 +1,6 @@
+/*
+This file contains the main algorithm which decides whether to assign the role of admin or the user by checking its credentails by using hooks of react
+*/
 import React, { useEffect, useState } from "react";
 import {
     Dialog,
