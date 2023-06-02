@@ -9,6 +9,10 @@ import AddCircleRoundedIcon from "@material-ui/icons/AddCircleRounded";
 import { UserForm } from "./UserForm";
 import { AssignRole } from "./AssignRole";
 
+/*
+This index.js file contains the main functions of Users, edit user info, styles and other main modules of the system.
+*/
+
 const useStyles = makeStyles((theme) => ({
     rootGrid: {
         flexGrow: 1,
