@@ -1,3 +1,7 @@
+/*
+starter file of
+my project
+*/
 import SignupLoginParentComponent from "./components/SignupLoginParent";
 import { HashRouter, Link, Route } from "react-router-dom";
 import {
